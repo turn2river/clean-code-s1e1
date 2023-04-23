@@ -42,10 +42,13 @@
   margin: 0;
   padding: 0px;
 }
-.task-list-item, .title {
+.task-list-item,
+.title {
   list-style: none;
 }
-.input-task,.label-task,.button{
+.input-task,
+.label-task,
+.button{
   outline: none;
 }
 .button {
@@ -102,7 +105,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -120,7 +122,7 @@
   font-size: 18px;
   width: 226px;
 }
-.task-list-item >    .input-task {
+.task-list-item > .input-task {
   width: 226px;
 }
 .delete-image {
