@@ -34,13 +34,14 @@
   display: inline-block;
   flex-grow: 1;
 }
-.add-item__title{
+.add-item__title {
   font-size: 16px;
   font-weight: 400;
   margin: 0 0 20px;
 }
 .add-item__input-wrapper {
   display: flex;
+  padding: 20px 0;
 }
 .tasks__list {
   margin: 0;
@@ -70,6 +71,7 @@
 }
 
 /* Heading */
+.add-item__title,
 .tasks__title {
   color: #333;
   font-weight: 700;
